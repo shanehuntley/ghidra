@@ -51,6 +51,11 @@ public enum Platform {
 	LINUX_64(OperatingSystem.LINUX, Architecture.X86_64, "linux64", ".so", ""),
 
 	/**
+	 * Identifies a Linux OS aarch64.
+	 */
+	LINUX_ARM64(OperatingSystem.LINUX, Architecture.AARCH_64, "linuxarm64", ".so", ""),
+
+	/**
 	 * Identifies a Linux OS, the architecture for which we do not know or have not encountered
 	 */
 	LINUX_UKNOWN(OperatingSystem.LINUX, Architecture.UNKNOWN, "linux64", ".so", ""),
