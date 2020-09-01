@@ -282,9 +282,6 @@ String getCurrentPlatformName() {
 		else if (isARM64) {
 			return 'linuxarm64'
 		}
-		else if (isARM64) {
-			return 'linuxarm64'
-		}
 	}
 	else if (osName.startsWith("Mac OS X")) {
 		if (isX86_64) {
