@@ -246,6 +246,7 @@ model {
 			// these tell gradle for which platforms to build a decompiler executable.
 			targetPlatform "win64"
 			targetPlatform "linux64"
+			targetPlatform "linuxarm64"
 			targetPlatform "osx64"
 			sources {
 				cpp {
@@ -346,6 +347,7 @@ model {
 		sleigh(NativeExecutableSpec) {
 			targetPlatform "win64"
 			targetPlatform "linux64"
+			targetPlatform "linuxarm64"
 			targetPlatform "osx64"
 			sources {
 				cpp {
